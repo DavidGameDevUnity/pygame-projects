@@ -1,6 +1,2 @@
-move object using keyboard
-      /\
-      up
-<left    right>
-     down
-      \/
+move object using keyboard up, left, right, down
+
