@@ -1,2 +1,2 @@
-move object using keyboard up, left, right, down
+movement object using keyboard up, left, right, down
 
