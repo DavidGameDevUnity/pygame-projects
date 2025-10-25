@@ -15,10 +15,8 @@ rect_width = 100
 rect_height = 100
 clock = pygame.time.Clock()
 
-
-# Устанавливаем параметры текста
-font = pygame.font.Font(None, 74)  # Используем шрифт по умолчанию
-text = font.render('Привет, Pygame!', True, (171,219,227))  # Белый цвет текста
+font = pygame.font.Font(None, 74)
+text = font.render('Привет, Pygame!', True, (171,219,227))
 
 while True:
 	for ev in pygame.event.get():
