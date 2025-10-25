@@ -40,7 +40,7 @@ while True:
 		print(x)
 	sc.fill((33, 33, 33))
 	draw_rect(sc, (0,0,255), x, y, 100, 100)
-	sc.blit(text, (100, 200))  # Позиция текста
+	sc.blit(text, (100, 200))
 	pygame.display.flip()
 	clock.tick(60)
 	print(clock.get_fps())
